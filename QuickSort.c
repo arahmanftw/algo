@@ -8,7 +8,7 @@ void swap(int arr[], int x, int y)
 }
 void quicksort(int number[], int first, int last)
 {
-    int i, j, pivot, temp;
+    int i, j, pivot;
     if (first < last)
     {
         pivot = first;
